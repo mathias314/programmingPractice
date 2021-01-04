@@ -2,5 +2,5 @@
 
 void linkedList::itReverse()
 {
-
+    
 }

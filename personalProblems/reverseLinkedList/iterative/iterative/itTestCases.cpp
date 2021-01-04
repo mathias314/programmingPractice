@@ -1,8 +1,10 @@
+#define CATCH_CONFIG_MAIN
+
 #include "../../../../catch.hpp"
 #include "../../reverse.h"
 #include <sstream>
 
-/* TEST_CASE( "reverse" )
+TEST_CASE( "reverse" )
 {
     ostringstream sout;
     sout.str( "" );
@@ -17,9 +19,9 @@
     l.print( sout );
 
     REQUIRE( sout.str() == "10, 5" );
-} */ 
+}
 
-int main()
+/* int main()
 {
     return 0;
-}
+} */
