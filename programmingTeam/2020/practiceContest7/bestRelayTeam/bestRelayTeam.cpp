@@ -1,3 +1,6 @@
+// Almost works, however my algorithm is wrong
+// cannot just use the fastest first time as first runner :(
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -35,6 +38,7 @@ int main()
 		allRunners.push_back(aRunner);
 	}
 	
+
 	sort(allRunners.begin(), allRunners.end(), sortStartTimes);
 	totalTime = allRunners[0].firstTime;
 	firstName = allRunners[0].name;
