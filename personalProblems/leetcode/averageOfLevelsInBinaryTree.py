@@ -15,7 +15,7 @@ class Solution:
             return []
 
         averages = []
-        traversal_queue = [root]
+        traversal_queue = [root]  # using collections.deque made this slower?
 
         while traversal_queue:
             num_nodes = len(traversal_queue)
